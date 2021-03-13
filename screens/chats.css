@@ -6,3 +6,7 @@
   font-family: "Noto Serif KR";
   margin-bottom: 120px;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
