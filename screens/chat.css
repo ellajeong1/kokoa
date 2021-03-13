@@ -1,0 +1,32 @@
+.alt-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 99%;
+}
+
+.alt-header__column {
+  display: flex;
+  align-items: center;
+  width: 33%;
+  margin: 0px 15px;
+  pad
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.alt-header__column_third {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.fa-ellipsis-h {
+  padding-left: 20px;
+}
+
+
