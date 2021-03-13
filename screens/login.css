@@ -1,0 +1,93 @@
+.welcome-header {
+  margin: 40px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.welcome-header__title {
+  margin-top: 10px;
+  margin-bottom: 30x;
+  font-size: 55px;
+  color: aliceblue;
+  font-family: 'Lobster', cursive;
+}
+
+@keyframes fa-giftAnimation {
+  0%{
+    transform: none;
+  }
+  50%{
+    transform: translateX(15px);
+  }
+  100%{
+    transform: none;
+  }
+}
+
+
+.welcome-header .fa-gift {
+  margin-top: -10px;
+  font-size: 90px;
+  animation: fa-giftAnimation 3s ease-in-out infinite;
+
+}
+
+
+.welcome-header__text {
+  margin-top: 30px;
+  margin-bottom: -10px;
+  width: 50%;
+  opacity: 0.7;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 80px;
+}
+
+#login-form input {
+  border: none;
+  padding: 10px 5px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transition: border-color 0.3s ease-in-out;
+
+}
+
+#login-form input::placeholder {
+  color: rgba(122, 122, 122, 0.644);
+  padding-left: 5px;
+
+}
+
+#login-form input:focus {
+  border-color: rgb(175, 29, 144);
+
+}
+
+#login-form input[type="submit"] {
+  background-color: rgb(175, 29, 144);
+  cursor: pointer;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: aliceblue;
+
+}
+
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: rgba(53, 53, 53, 0.897);
+  font-size: 15px;
+}
+
+#chat-screen {
+  background-color: rgb(253, 174, 229);
+}

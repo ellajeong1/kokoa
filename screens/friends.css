@@ -1,0 +1,28 @@
+#friends-background {
+  background-color: rgb(253, 228, 246);
+}
+.friends-screen {
+  font-family: "Noto Serif KR";
+  margin-bottom: 120px;
+}
+.friends-screen__channel {
+  margin-top: 60px;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+  padding-top: 15px;
+}
+
+.friends-screen__channel-header {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+a {
+  text-decoration: none;
+}
+
+.song__link {
+  color: gray;
+}

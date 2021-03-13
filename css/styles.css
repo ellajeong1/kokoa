@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&family=Roboto:wght@300&display=swap");
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
