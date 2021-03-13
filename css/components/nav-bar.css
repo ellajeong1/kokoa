@@ -1,21 +1,22 @@
 .nav {
   position: fixed;
   bottom: 0px;
-  width: 101%;
-  margin-left: -10px;
-  margin-right: -10px;
-  background-color: #f9f9fa;
-  padding: 10px 50px;
-  box-sizing: border-box;
+  height: 80px;
+  width: 100vw;
+  background-color: white;
   border-top: 1px solid rgba(121, 121, 121, 0.3);
+  padding: 10px 5px 5px 0px;
+  margin: 0px 0px 0px -8px;
 }
 .nav__list {
   display: flex;
   justify-content: space-between;
+  width: 85%;
 }
 .nav__link {
   position: relative;
   color: #525252;
+  padding: 0px -20px;
 }
 
 .nav__notification {
