@@ -74,3 +74,6 @@ body {
 #more-background {
   background-color: rgb(253, 228, 246);
 }
+a {
+  text-decoration: none;
+}
