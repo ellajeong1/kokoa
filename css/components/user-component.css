@@ -2,6 +2,7 @@
 .user-component__column:first-child {
   display: flex;
   align-items: center;
+  margin: 10px 0px;
 }
 
 .user-component__avatar {
@@ -13,12 +14,12 @@
 
 .user-component__title {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 13px;
 }
 
 .user-component__subtitle {
   margin-top: -20px;
-  font-size: 14px;
+  font-size: 10px;
   color: rgba(116, 115, 115, 0.753);
 }
 
@@ -62,6 +63,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 15px;
+  font-size: 13px;
   margin-bottom: -40px;
 }
