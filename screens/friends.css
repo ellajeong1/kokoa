@@ -23,3 +23,7 @@ a {
 .song__link {
   color: gray;
 }
+
+#friends-background {
+  background-color: rgb(253, 228, 246);
+}
