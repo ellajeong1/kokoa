@@ -1,122 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<html lang="ko">
+
+
+<head>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="screens/find.css" />
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - Kokoa Clone</title>
-  </head>
-  <body class="find-background">
+    <title>Chats - Pandora's Talk Box</title>
+</head>
+
+<body id="chats-background">
     <div class="status-bar">
-      <div class="status-bar__column">
-          <span>No Service</span>
-          <i class="fas fa-wifi"></i>
-      </div>
-      <div class="status-bar__column">
-          <span>5:27</span>
-      </div>
-      <div class="status-bar__column">
-          <span>100%</span>
-          <i class="fas fa-battery-full fa-lg"></i>
-          <i class="fas fa-bolt"></i>
-      </div>
-  </div>
-
-    <header class="screen-header">
-      <h1 class="screen-header__title">검색</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
-      </div>
-    </header>
-
-    <main class="main-screen">
-      <div class="icon-row">
-        <div class="icon-row__icon">
-          <i class="fas fa-qrcode"></i>
-          <span>QR Code</span>
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
         </div>
-        <div class="icon-row__icon">
-          <i class="far fa-address-book"></i>
-          <span>Add by Contacts</span>
+        <div class="status-bar__column">
+            <span>5:27</span>
         </div>
-        <div class="icon-row__icon">
-          <i class="fas fa-fingerprint"></i>
-          <span>Add by ID</span>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
         </div>
-        <div class="icon-row__icon">
-          <i class="far fa-envelope"></i>
-          <span>Invite</span>
-        </div>
-      </div>
-      <div class="recommended-friends">
-        <h4 class="recommended-friends__title">Recommended Friends</h4>
-        <span>You have no recommended friends.</span>
-      </div>
-      <div class="open-chat">
-        <div class="open-chat__header">
-          <h4>Open Chat</h4>
-          <span
-            >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i>
-          </span>
-        </div>
-        <div class="open-post">
-          <div class="open-post__column">
-            <h5 class="open-post__title">#BTS</h5>
-            <h6 class="open-post__hashtags">#bts#army#friends</h6>
-            <div class="open-post__members">
-              <img src="https://avatars3.githubusercontent.com/u/3612017" />
-              <span class="open-post__member-count">802 members</span>
-              <div class="divider"></div>
-              <span class="open-post__member-status">Active</span>
-            </div>
-          </div>
-          <div class="open-post__column">
-            <div class="open-post__photo">
-              <img src="https://avatars3.githubusercontent.com/u/3612017" />
-              <div class="open-post__heart-count">
-                <i class="fas fa-heart fa-xs"></i><span>326</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a class="nav__link" href="friends.html"
-            ><i class="far fa-user fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="chats.html">
-            <span class="nav__notification">1</span>
-            <i class="far fa-comment fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="find.html"
-            ><i class="fas fa-search fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="more.html"
-            ><i class="fas fa-ellipsis-h fa-2x"></i
-          ></a>
-        </li>
-      </ul>
-    </nav>
-
-    <div id="no-mobile">
-      <span>Your screen is too big ㅠㅠ</span>
     </div>
 
-    <script
-      src="https://kit.fontawesome.com/6478f529f2.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <header class="screen-header">
+        <h1 class="screen-header__title">탐색</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="far fa-comment-dots fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="icon">
+            <div class="icon-qr">
+                <i class="fas fa-qrcode"></i>
+                <span>QR Code</span>
+            </div>
+            <div class="icon-qr">
+                <i class="fas fa-wallet"></i>  
+                <span>My Wallet</span>
+            </div>
+        </div>
+
+        <div class="today_weather_title">
+            <span>NEWS</span>
+           </div>
+        <div class="today_weather_big">
+            <div class="today_weather">
+             <div class="weather_img">
+             <img src="https://img.newspim.com/news/2021/03/11/2103111704593590.jpg">
+             </div>
+            </div>
+             <div class="weather_info">
+               <div class="weather_name"><span>[내일날씨] 내일 전국 곳곳 비</span>
+            </div>
+               <div class="weather_bio"><span>금요일인 12일 전국 곳곳에 비가 내릴 것으로 예상된다. 수도권과 충청도는 짙은 안개가 끼는 곳이 있어 교통안전과 건강관리에 각별한 유의가 필요할 것으로 보인다...<더보기> </span>
+            </div>
+            </div>
+        </div>
+        <div class="today_weather_big">
+            <div class="today_weather">
+             <div class="weather_img">
+             <img src="https://img.newspim.com/news/2021/03/11/2103110213482750_w.jpg">
+             </div>
+            </div>
+             <div class="weather_info">
+               <div class="weather_name"><span>[종합] "쿠팡 공모가, 희망범위 웃돈 35달러"...거래 첫날 대박</span>
+            </div>
+               <div class="weather_bio"><span>미국 뉴욕증권거래소(NYSE) 상장을 앞둔 쿠팡의 공모가가 주당 35달러에 책정됐다고 블룸버그통신·월스트리트저널(WSJ)이 10일(현지시간) 관계자를 인용해 보도했다..<더보기> </span>
+            </div>
+            </div>
+        </div>
+    </main>
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification">1</span> <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html"><i class="fa fa-search fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__dots"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <div id="no-mobile">
+        <span>*Sorry, You can see Only your Phone*</span>
+      </div>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
