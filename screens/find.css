@@ -1,15 +1,15 @@
-#find-background {
-  background-color: rgb(253, 228, 246);
+.find-background {
+  background-color: rgb(247, 117, 210);
 }
 
 .recommended-friends {
   margin: 25px 0px;
   padding: 25px 0px;
-  border-top: var(--main-border);
-  border-bottom: var(--main-border);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .recommended-friends__title {
-  font-size: 14px;
+  font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
 }
 
